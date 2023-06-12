@@ -3,26 +3,21 @@
     outline: none;
   }
   
-  html[theme="dark-mode"] {
-    /* ! */
-    filter: invert(100%) hue-rotate(180deg);
-  }
-  
   body {
-    background-color: white;
+    overflow: hidden;
+    background-color: rgba(250, 133, 115, 0.2);
   }
   
   .container {
     position: relative;
-    top: 130px;
+    top: 120px;
   }
+  @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
   .ww-title {
-    font-family: 'Noto Serif KR', serif;
-    margin: 50px;
-  }
-  .ww-title {
-    font-family: 'Noto Serif KR', serif;
-    margin: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18em;
+    /* font-family: 'Noto Serif KR', serif; */
+    margin: 20px 0px 0px 0px;
   }
 
   .ww-couple-name1 {
@@ -30,9 +25,48 @@
     left: 170px;
   }
   .ww-couple-name2 {
-    text-align: center;
+    position: relative;
+    left: 170px;
   }
   .ww-couple-name3 {
     position: relative;
     left: 170px;
+  }
+  .haru1 {
+    position: absolute;
+    left: 800px;
+    top: -70px;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-name: haru-vertical;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .haru2 {
+    position: absolute;
+    left: 1500px;
+    animation: linear;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-name: haru;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes haru-vertical {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  }
+  @keyframes haru {
+    from {
+      transform: rotate(-80deg);
+    }
+    to {
+      transform: rotate(20deg);
+    }
   }
