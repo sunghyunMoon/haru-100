@@ -1,0 +1,3 @@
+*{outline:none;user-select:none}html[theme=dark-mode]{
+    /* ! */filter:invert(100%) hue-rotate(180deg)}body{background-color:#fff}.container{position:relative;top:130px}.ww-title{font-family:"Noto Serif KR",serif;margin:50px}.ww-couple-name1{left:170px;position:relative}.ww-couple-name2{text-align:center}.ww-couple-name3{left:170px;position:relative}
+/*# sourceMappingURL=style.css.map*/

@@ -1,0 +1,38 @@
+* {
+    user-select: none;
+    outline: none;
+  }
+  
+  html[theme="dark-mode"] {
+    /* ! */
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .container {
+    position: relative;
+    top: 130px;
+  }
+  .ww-title {
+    font-family: 'Noto Serif KR', serif;
+    margin: 50px;
+  }
+  .ww-title {
+    font-family: 'Noto Serif KR', serif;
+    margin: 50px;
+  }
+
+  .ww-couple-name1 {
+    position: relative;
+    left: 170px;
+  }
+  .ww-couple-name2 {
+    text-align: center;
+  }
+  .ww-couple-name3 {
+    position: relative;
+    left: 170px;
+  }
