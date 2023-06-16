@@ -5,37 +5,37 @@
   
   body {
     overflow: hidden;
-    background-color: rgba(250, 133, 115, 0.2);
+    background-color: rgba(25, 161, 251, 0.2);
   }
   
   .container {
     position: relative;
-    top: 120px;
+    top: 50px;
   }
   @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
   .ww-title {
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 18em;
+    font-size: 16em;
     /* font-family: 'Noto Serif KR', serif; */
     margin: 20px 0px 0px 0px;
   }
 
   .ww-couple-name1 {
     position: relative;
-    left: 170px;
+    left: 80px;
   }
   .ww-couple-name2 {
     position: relative;
-    left: 170px;
+    left: 80px;
   }
   .ww-couple-name3 {
     position: relative;
-    left: 170px;
+    left: 80px;
   }
   .haru1 {
     position: absolute;
-    left: 800px;
-    top: -70px;
+    left: 600px;
+    top: -50px;
     animation-timing-function: linear;
     animation-direction: alternate;
     animation-fill-mode: forwards;
@@ -45,7 +45,8 @@
   }
   .haru2 {
     position: absolute;
-    left: 1500px;
+    left: 1450px;
+    top: -600px;
     animation: linear;
     animation-timing-function: linear;
     animation-direction: alternate;
@@ -54,12 +55,51 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
   }
+  .haru3 {
+    position: absolute;
+    left: 1300px;
+    top: 570px;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-name: haru3;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+  }
+  .haru4 {
+    position: absolute;
+    left: 950px;
+    top: 0px;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-name: haru-vertical2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
   @keyframes haru-vertical {
     from {
       transform: translateX(0px);
     }
     to {
       transform: translateX(100px);
+    }
+  }
+  @keyframes haru-vertical2 {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes haru3 {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(30px);
     }
   }
   @keyframes haru {
